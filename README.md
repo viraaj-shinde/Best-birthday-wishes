@@ -19,3 +19,34 @@ Short description: e.g., "Interactive Birthday Wishes Web App with 4 animated in
 ```bash
 git clone <repo_url>
 cd <repo_name>
+▶️ How to Run (Local)
+✅ Method 1: Open Directly (Simplest)
+Just double-click index.html
+or
+Right-click → Open with Browser
+✔ Works instantly
+✔ No internet required (except Google Fonts & background image)
+✅ Method 2: Using Python (Recommended for testing)
+If you have Python installed, run:
+Copy code
+Bash
+python -m http.server 8080
+Then open your browser and visit:
+Copy code
+
+http://localhost:8080
+✔ Simulates real hosting
+✔ Best for testing on mobile devices
+🌍 Make It Public (Temporary Sharing)
+If you want to share it publicly (for demo / client / testing):
+🔗 Using ngrok
+Install ngrok
+Run:
+Copy code
+Bash
+ngrok http 8080
+You’ll get a public URL like:
+Copy code
+
+https://abcd-1234.ngrok.io
+Anyone can open that link and see your birthday card live 🎉
